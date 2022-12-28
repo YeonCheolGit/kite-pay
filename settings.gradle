@@ -1,0 +1,8 @@
+rootProject.name = 'kite-pay'
+
+include(
+        "user",
+        "barcode",
+        "point",
+        "store"
+)
