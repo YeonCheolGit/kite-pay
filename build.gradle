@@ -14,7 +14,12 @@ allprojects {
     }
 }
 
-bootJar.enabled = false
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
 
 subprojects {
     plugins.apply("java")
@@ -29,7 +34,6 @@ subprojects {
 
     dependencies {
         compileOnly 'org.projectlombok:lombok'
-        runtimeOnly 'com.mysql:mysql-connector-j'
         annotationProcessor 'org.projectlombok:lombok'
         testImplementation "org.springframework.boot:spring-boot-starter-test"
     }
