@@ -4,5 +4,6 @@ include(
         "user",
         "barcode",
         "point",
-        "store"
+        "store",
+        "storage:db-main"
 )
