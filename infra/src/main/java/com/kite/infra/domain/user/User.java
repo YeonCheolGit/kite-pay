@@ -1,7 +1,7 @@
-package com.kite.kitepay.domain.user;
+package com.kite.infra.domain.user;
 
 
-import com.kite.kitepay.base.BaseEntity;
+import com.kite.infra.base.BaseEntity;
 import org.hibernate.annotations.Comment;
 
 import javax.persistence.Column;

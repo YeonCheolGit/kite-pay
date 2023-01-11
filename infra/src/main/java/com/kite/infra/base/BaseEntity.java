@@ -1,4 +1,4 @@
-package com.kite.kitepay.base;
+package com.kite.infra.base;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
