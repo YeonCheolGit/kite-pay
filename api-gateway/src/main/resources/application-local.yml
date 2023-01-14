@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: auth-server
+          uri: not fixed yet
+          predicates:
+            - Path= not fixed yet

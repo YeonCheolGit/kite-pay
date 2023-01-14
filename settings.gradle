@@ -1,7 +1,8 @@
 rootProject.name = 'kite-pay'
 
-include 'user'
-include 'barcode'
-include 'point'
-include 'store'
-include 'infra'
+include('user')
+include('barcode')
+include('point')
+include('store')
+include('infra')
+include('api-gateway')
